@@ -334,21 +334,21 @@ h6,
     
 }
 .imgproduct_AP24{
-    width: 340.9px;
-    height: 340.9px;
-    margin-top: 97px;
-    margin-left: 86px;
+    width: 600px;
+    height: 600px;
 }
 .productaccordion_child{
     display: flex;
+    width: 80%;
+    margin: auto;
 }
-.information_product{
+.product_information{
     margin-top: 125px;
-    width: 60%;
+    width: 100%;
     color: #6c97a7;
 }
 
-.information_product h1 {
+.product_information h1 {
     color: rgb(6, 163, 218);
 }
 .btn_order{
@@ -357,12 +357,15 @@ h6,
     width: 151px;
     color: #fff;
 }
-.information_product button:hover{
+.product_information button:hover{
     color: #e4768d;
 }
-.information_product h2{
+.product_information h2{
     color: #e4768d;
 }
-.information_product h5{
+.product_information h5{
     color:#6e81ca ;
+}
+.product-images {
+    display: block;
 }
