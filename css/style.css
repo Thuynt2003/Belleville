@@ -333,3 +333,36 @@ h6,
     background: #fff url('../img/yorbalindadental-logo.png') no-repeat center;
     
 }
+.imgproduct_AP24{
+    width: 340.9px;
+    height: 340.9px;
+    margin-top: 97px;
+    margin-left: 86px;
+}
+.productaccordion_child{
+    display: flex;
+}
+.information_product{
+    margin-top: 125px;
+    width: 60%;
+    color: #6c97a7;
+}
+
+.information_product h1 {
+    color: rgb(6, 163, 218);
+}
+.btn_order{
+    background-color: rgb(0 177 182 / 67%);
+    border-radius: 19px;
+    width: 151px;
+    color: #fff;
+}
+.information_product button:hover{
+    color: #e4768d;
+}
+.information_product h2{
+    color: #e4768d;
+}
+.information_product h5{
+    color:#6e81ca ;
+}
