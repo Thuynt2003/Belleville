@@ -343,7 +343,7 @@ h6,
     margin: auto;
 }
 .product_information{
-    margin-top: 125px;
+    margin-top: 30px;
     width: 100%;
     color: #6c97a7;
 }
@@ -366,6 +366,24 @@ h6,
 .product_information h5{
     color:#6e81ca ;
 }
-.product-images {
+.product-image {
+    display: flex;
+}
+.activeSlide{
     display: block;
+}
+.hiddenSlide{
+    display: none;
+}
+.img_product{
+    width: 84px;
+    height: 84px;
+    margin-right: 39px;
+
+}
+.describe{
+    margin-top: 25px;
+}
+.product_choose{
+    display: flex;
 }
