@@ -80,13 +80,27 @@
     <!-- Navbar End -->
     <!-- product_child start -->
     <div class="productaccordion_child">
-        <div class="product-image">
+        <div class="product-images">
             <img src="https://nhakhoahungcuong.com.vn/wp-content/uploads/2022/06/08583b7a4fa31761b78921d06c671180-1.jpg"
-                alt="" class="imgproduct_AP24">
+                alt="product-image" class="imgproduct_AP24 activeSlide">
+            <img src=" https://cdn.shopify.com/s/files/1/0374/6306/4713/products/CalciumMouthwash_800x.jpg?v=1587048520"
+                alt="product-image" class="imgproduct_AP24 hiddenSlide">
+            <img src="https://statics.promofarma.com/static/promofarma/prod/product_images/z/0JATR_es_ES_0.jpg"
+                alt="product-image" class="imgproduct_AP24 hiddenSlide">
         </div>
         <div class="product_information">
-            <h1>Fluor KIN Children Infantil mouthwash 500ml</h1>
+            <h1 class="name_product activeSlide">Fluor KIN Children Infantil mouthwash 500ml</h1>
             <h2>The price: 9.9$</h2>
+            <div class="product_choose">
+                <img src="https://nhakhoahungcuong.com.vn/wp-content/uploads/2022/06/08583b7a4fa31761b78921d06c671180-1.jpg"
+                    alt="product-image" onclick="productimg_once()" class="img_product">
+                <img src="https://cdn.shopify.com/s/files/1/0374/6306/4713/products/CalciumMouthwash_800x.jpg?v=1587048520"
+                    alt="product-image" onclick="productimg_two()" class="img_product">
+                <img src="https://statics.promofarma.com/static/promofarma/prod/product_images/z/0JATR_es_ES_0.jpg"
+                    alt="product-image" onclick="three()" class="img_product">
+            </div>
+
+
             <div class="describe">
                 <p>FluorKIN Children's Mouthwash is specially formulated for children.
                     Contains 226ppm Fluoride combined with Xylitol 1% to help prevent systemic caries.
@@ -94,6 +108,8 @@
                 <p>Does not contain alcohol, does not dry, irritate the mouth of children.</p>
                 <p> Strawberry flavor, pleasant to children.</p>
             </div>
+
+
             <a href=""><button type="button" class="btn btn_order">Order</button></a>
         </div>
     </div>

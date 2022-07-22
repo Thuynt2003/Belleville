@@ -387,3 +387,7 @@ h6,
 .product_choose{
     display: flex;
 }
+.img_ambum{
+    width:283px ;
+    height: 176px;
+}
